@@ -1,0 +1,232 @@
+items:
+  - type: STR_DISPLACER_SONIC
+    customItemPreviewIndex: 2
+  - type: STR_DISPLACER_PWT
+    customItemPreviewIndex: 2
+  - delete: STR_COELACANTH_GAUSS
+  - type: STR_COELACANTH_GAUSS
+    listOrder: 1600
+    size: 6
+    costSell: 594000
+    transferTime: 96
+    bigSprite: 504
+    fireSound: 34
+    accuracySnap: 50
+    accuracyAimed: 85
+    tuSnap: 33
+    tuAimed: 75
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 4
+    battleType: 1
+    bulletSprite: 6
+    hitSound: 31
+    hitAnimation: 46
+    power: 110
+    damageType: 4
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 10
+    clipSize: -1
+    customItemPreviewIndex: 1
+  - type: STR_GAUSS_PISTOL
+    accuracyAuto: 40
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuAuto: 30
+    tuSnap: 20
+    tuAimed: 40
+    hitSound: 31
+    hitAnimation: 46
+    power: 65
+    damageType: 4
+    clipSize: -1
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 5
+    compatibleAmmo: []
+  - delete: STR_GAUSS_PISTOL_CLIP
+  - type: STR_GAUSS_RIFLE
+    accuracyAuto: 55
+    accuracySnap: 70
+    accuracyAimed: 115
+    tuAuto: 55
+    tuSnap: 40
+    tuAimed: 75
+    hitSound: 31
+    hitAnimation: 46
+    power: 75
+    damageType: 4
+    clipSize: -1
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 10
+    compatibleAmmo: []
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - type: STR_HEAVY_GAUSS
+    hitSound: 31
+    accuracyAuto: 60
+    tuAuto: 45
+    autoShots: 3
+    hitAnimation: 46
+    power: 115
+    damageType: 4
+    clipSize: -1
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 15
+    compatibleAmmo: []
+  - delete: STR_HEAVY_GAUSS_CLIP
+  - type: STR_VIBRO_BLADE
+    accuracyMelee: 130
+    tuMelee: 5
+    power: 50
+  - type: STR_THERMIC_LANCE
+    accuracyMelee: 160
+    tuMelee: 15
+    power: 125
+  - type: STR_HEAVY_THERMIC_LANCE
+    accuracyMelee: 190
+    tuMelee: 25
+    power: 200
+  - type: STR_AUXAC
+    bigSprite: 500
+    bulletSprite: 3
+    fireSound: 23
+    tuAuto: 25
+    accuracyAuto: 55
+    autoShots: 4
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    clipSize: 150
+    power: 42
+    damageType: 1
+    hitSound: 21
+    hitAnimation: 26
+    invWidth: 2
+    invHeight: 3
+    vaporColor:  { mod: xcom2, index: 0 }
+    vaporDensity: 15
+    defaultInventorySlot: STR_LEFT_HAND
+  - type: STR_AUXLC
+    bigSprite: 501
+    bulletSprite: 3
+    fireSound: 23
+    tuSnap: 25
+    accuracySnap: 80
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    clipSize: 150
+    power: 42
+    damageType: 1
+    hitSound: 21
+    hitAnimation: 26
+    invWidth: 2
+    invHeight: 3
+    vaporColor:  { mod: xcom2, index: 0 }
+    vaporDensity: 15
+    defaultInventorySlot: STR_LEFT_HAND
+  - type: STR_AUXLSC
+    bigSprite: 503
+    bulletSprite: 8
+    fireSound: 37
+    tuSnap: 25
+    accuracySnap: 85
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    clipSize: 250
+    power: 50
+    damageType: 5
+    hitSound: 31
+    hitAnimation: 46
+    invWidth: 2
+    invHeight: 3
+    vaporColor:  { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    defaultInventorySlot: STR_LEFT_HAND
+
+# customItemPreviewIndex: 0
+# customItemPreviewIndex: 2
+  - type: STR_COELGAUSS_CORPSE_1
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_COELGAUSS_CORPSE_2
+    floorSprite: 307
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_COELGAUSS_CORPSE_3
+    floorSprite: 308
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_COELGAUSS_CORPSE_4
+    floorSprite: 309
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_WRECKED_PLASTIC_ARMOR
+    listOrder: 10605
+    size: 0.8
+    costSell: 12000
+    recoveryPoints: 0
+    battleType: 11
+    recover: true
+
+  - type: STR_WRECKED_ION_ARMOR
+    listOrder: 10705
+    size: 0.8
+    costSell: 51500
+    recoveryPoints: 0
+    battleType: 11
+    recover: true
+
+  - type: STR_WRECKED_MAG_ARMOR
+    listOrder: 10805
+    size: 0.8
+    costSell: 60125
+    recoveryPoints: 0
+    battleType: 11
+    recover: true
+
+  - type: STR_CORPSE_ARMOR
+    battleType: 11
+    recover: true
+    
+  - type: STR_CORPSE_ION
+    battleType: 11
+    recover: true
+
+  - type: STR_DART_PISTOL
+    accuracySnap: 50
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 40
+  - type: STR_DART_POD
+    power: 24
+  - type: STR_MAGNA_BLAST_GRENADE
+    power: 70
+  - type: STR_MAGNA_PACK_EXPLOSIVE
+    power: 110
+  - type: STR_SONIC_CANNON
+    accuracySnap: 80
+    accuracyAimed: 130
+    tuSnap: 45
+    tuAimed: 75
+  - type: STR_SONIC_BLASTA_RIFLE
+    accuracySnap: 75
+    accuracyAimed: 120
+    tuSnap: 30
+    tuAimed: 60
+  - type: STR_SONIC_PISTOL
+    accuracySnap: 70
+    accuracyAimed: 110
+    tuSnap: 25
+    tuAimed: 50

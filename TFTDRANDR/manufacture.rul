@@ -1,0 +1,56 @@
+manufacture:
+  - delete: STR_GAUSS_PISTOL_CLIP
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS_CLIP
+
+  - name: STR_COELACANTH_GAUSS
+    listOrder: 600
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requiredItems:
+      STR_GAUSS_CANNON: 1
+      STR_AQUA_PLASTICS: 25
+    requires:
+     - STR_GAUSS_CANNON
+  - name: STR_PLASTIC_AQUA_ARMOR_REPAIR
+    listOrder: 3120
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_PLASTIC_AQUA_ARMOR
+    space: 12
+    time: 500
+    cost: 12000
+    requiredItems:
+      STR_WRECKED_PLASTIC_ARMOR: 1
+      STR_AQUA_PLASTICS: 2
+    producedItems:
+      STR_PLASTIC_AQUA_ARMOR: 1
+
+  - name: STR_ION_ARMOR_REPAIR
+    listOrder: 3220
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ION_ARMOR
+    space: 10
+    time: 600
+    cost: 27000
+    requiredItems:
+      STR_WRECKED_ION_ARMOR: 1
+      STR_AQUA_PLASTICS: 3
+      STR_ZRBITE: 2
+    producedItems:
+      STR_ION_ARMOR: 1
+
+  - name: STR_MAGNETIC_ION_ARMOR_REPAIR
+    listOrder: 3320
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_MAGNETIC_ION_ARMOR
+    space: 16
+    time: 750
+    cost: 38000
+    requiredItems:
+      STR_WRECKED_MAG_ARMOR: 1
+      STR_AQUA_PLASTICS: 3
+      STR_ZRBITE: 10
+    producedItems:
+      STR_MAGNETIC_ION_ARMOR: 1

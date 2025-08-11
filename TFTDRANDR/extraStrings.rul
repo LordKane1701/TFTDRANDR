@@ -1,0 +1,9 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_WRECKED_PLASTIC_ARMOR: "Aqua Plastic Armor (Damaged)"
+      STR_WRECKED_ION_ARMOR: "Ion Armor (Damaged)"
+      STR_WRECKED_MAG_ARMOR: "Magnetic Ion Armor (Damaged)"
+      STR_PLASTIC_AQUA_ARMOR_REPAIR: "Aqua Plastic Armor (Repair)"
+      STR_ION_ARMOR_REPAIR: "Ion Armor (Repair)"
+      STR_MAGNETIC_ION_ARMOR_REPAIR: "Magnetic Ion Armor (Repair)"

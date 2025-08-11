@@ -1,0 +1,15 @@
+thanks list for Refreshed
+1. NeonNito/Daev for Expanded Aresnal and Vanilla Plus alot of content comes from his mods including:
+a. The idea for armor repair 
+b. the new coelcanith guass sprite 
+c. the status icons for sleep/wounds and bleeding and stun and fire. 
+d. armor previews in the equip sub screen
+Thereaverofdarkness and Harmony and TFTD Easier for the following:
+a. the hit flash script is lifted directly from harmony
+ a2. thanks to reaver for helping me modify it for TFTD! 
+Alot of the re-balancing from TFTD Easier has been assimilated into Refreshed:
+
+a. some of the research rebalancing 
+b. some of the item rebalancing. 
+c. the difficulty changes
+d. craft changes

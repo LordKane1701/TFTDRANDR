@@ -1,0 +1,13 @@
+ufopaedia:
+  - delete: STR_GAUSS_PISTOL_CLIP
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS_CLIP
+
+  - id: STR_COELACANTH_GAUSS
+    type_id: 13
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    weapon: STR_DAMAGE_LASER_BEAM
+    image_id: UFOpaedia_COELGAUSS.png
+    requires:
+      - STR_GAUSS_CANNON
+    text: STR_COELACANTH_GAUSS_UFOPEDIA

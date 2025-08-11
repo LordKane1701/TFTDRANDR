@@ -1,0 +1,142 @@
+research:
+  - delete: STR_GAUSS_PISTOL_CLIP
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS_CLIP
+  - delete: STR_AQUA_PLASTICS
+  - delete: STR_MC_READER
+  - new: STR_AQUA_PLASTICS  
+  - new: STR_MC_READER
+
+  - name: STR_VIBRO_BLADE
+    cost: 500
+    points: 10
+    dependencies:
+      - STR_AQUA_PLASTICS
+  - name: STR_THERMIC_LANCE
+    cost: 500
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_AQUA_PLASTICS
+  - name: STR_HEAVY_THERMIC_LANCE
+    cost: 600
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_AQUA_PLASTICS
+  - name: STR_COMMANDER_PLUS
+    cost: 0
+    points: 0
+    unlocks:
+      - STR_TLETH_ALIEN_CITY
+    requires:
+      - STR_THE_ULTIMATE_THREAT
+    dependencies:
+      - STR_LOBSTERMAN_COMMANDER
+      - STR_AQUATOID_COMMANDER
+      - STR_GILLMAN_COMMANDER
+  - name: STR_NEW_FIGHTER_FLYING_SUB
+    cost: 600
+    points: 30
+    dependencies:
+      - STR_ALIEN_SUB_CONSTRUCTION
+      - STR_PLASTIC_AQUA_ARMOR
+  - name: STR_NEW_FIGHTER_TRANSPORTER
+    cost: 700
+    points: 30
+    dependencies:
+      - STR_NEW_FIGHTER_FLYING_SUB
+      - STR_ION_ARMOR
+  - name: STR_ION_ARMOR
+    cost: 205
+    points: 20
+    dependencies:
+      - STR_ION_BEAM_ACCELERATORS
+      - STR_PLASTIC_AQUA_ARMOR
+  - name: STR_LEADER_PLUS
+    cost: 0
+    requires:
+      - STR_ALIEN_ORIGINS
+    dependencies:
+      - STR_AQUATOID_NAVIGATOR
+      - STR_LOBSTERMAN_NAVIGATOR
+  - name: STR_ALIEN_SUB_CONSTRUCTION
+    cost: 450
+    points: 30
+    dependencies:
+      - STR_MAGNETIC_NAVIGATION
+      - STR_ION_BEAM_ACCELERATORS
+      - STR_ZRBITE
+      - STR_AQUA_PLASTICS
+  - name: STR_THE_LATEST_FLYING_SUB
+    cost: 900
+    points: 30
+    dependencies:
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_MAGNETIC_ION_ARMOR
+  - name: STR_AQUATOID_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_AQUATOID
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+    needItem: true
+    destroyItem: true
+  - name: STR_AQUATOID_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_AQUATOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+  - name: STR_GILLMAN_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_GILLMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+  - name: STR_LOBSTERMAN_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_LOBSTERMAN
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+    needItem: true
+    destroyItem: true
+  - name: STR_LOBSTERMAN_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_LOBSTERMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+
+  - name: STR_AQUA_PLASTICS
+    cost: 400
+    points: 30
+    listOrder: 1500
+    needItem: true
+#    dependencies:
+  
+  - name: STR_MC_READER
+    cost: 600
+    listOrder: 2200
+    points: 25
+    needItem: true
+#    dependencies:
+
+  - name: STR_GAUSS_CANNON
+    dependencies:
+      - STR_HEAVY_GAUSS

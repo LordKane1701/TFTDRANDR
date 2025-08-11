@@ -1,0 +1,60 @@
+armors:
+  - type: STR_NONE_UC
+    customArmorPreviewIndex: 0
+  - type: STR_PLASTIC_AQUA_ARMOR_UC
+    frontArmor: 70
+    sideArmor: 45
+    rearArmor: 40
+    underArmor: 25
+    customArmorPreviewIndex: 2
+    corpseBattle:
+     - STR_CORPSE_ARMOR
+    corpseGeo: STR_WRECKED_PLASTIC_ARMOR
+  - type: STR_ION_ARMOR_UC
+    frontArmor: 142
+    sideArmor: 80
+    rearArmor: 110
+    underArmor: 55
+    customArmorPreviewIndex: 4
+    corpseBattle:
+     - STR_CORPSE_ION
+    corpseGeo: STR_WRECKED_ION_ARMOR
+  - type: STR_MAGNETIC_ION_ARMOR_UC
+    frontArmor: 152
+    sideArmor: 90
+    rearArmor: 120
+    underArmor: 65
+    customArmorPreviewIndex: 5
+    corpseBattle:
+     - STR_CORPSE_ION
+    corpseGeo: STR_WRECKED_MAG_ARMOR
+  - type: COELACANTH_ARMOR_PLASTIC
+    spriteSheet: COELGAUSS.PCK
+    spriteInv: XC_CGU
+    corpseBattle:
+      - STR_COELGAUSS_CORPSE_1
+      - STR_COELGAUSS_CORPSE_2
+      - STR_COELGAUSS_CORPSE_3
+      - STR_COELGAUSS_CORPSE_4
+    frontArmor: 160
+    sideArmor: 100
+    rearArmor: 80
+    underArmor: 80
+    drawingRoutine: 11
+    size: 2
+    loftempsSet: [92, 89, 90, 91]
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.75
+      - 1.2
+      - 0.0
+      - 1.5
+    allowInv: false
+    visibilityAtDark: 12
+    heatVision: 75

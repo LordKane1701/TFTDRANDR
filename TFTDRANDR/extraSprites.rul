@@ -1,0 +1,68 @@
+extraSprites:
+
+ - type: BIGOBS.PCK
+   files:
+    500: Resources/AuxAC.png
+    501: Resources/AuxLC.png
+    502: Resources/AuxLGC.png
+    503: Resources/AuxLSC.png
+    504: Resources/Bigob_HWP_gauss.png
+ - type: FLOOROB.PCK
+   files:
+    122: Resources/floorob_EMPTY.png
+    307: Resources/floorob_turtle_2.gif
+    308: Resources/floorob_turtle_3.gif
+    309: Resources/floorob_turtle_4.gif
+
+ - typeSingle: BigStunIndicator
+   fileSingle: Resources/Zzz.png
+ - typeSingle: FloorStunIndicator
+   fileSingle: Resources/Zzz.png
+ - typeSingle: BigBurnIndicator
+   fileSingle: Resources/burning.gif
+ - typeSingle: FloorBurnIndicator
+   fileSingle: Resources/burning.gif
+ - typeSingle: BigWoundIndicator
+   fileSingle: Resources/Bleed.png
+ - typeSingle: FloorWoundIndicator
+   fileSingle: Resources/Bleed.png
+ - typeSingle: BigShockIndicator
+   fileSingle: Resources/Shock.png
+ - typeSingle: FloorShockIndicator
+   fileSingle: Resources/Shock.png
+
+ - type: CustomArmorPreviews
+   width: 228
+   height: 20
+   subX: 12
+   subY: 20
+   files:
+    0: Resources/Craft_Armor.png
+
+ - type: CustomItemPreviews
+   width: 224
+   height: 40
+   subX: 32
+   subY: 40
+   files:
+    0: Resources/Craft_Tank.png
+      
+ - type: COELGAUSS.PCK
+   subX: 32
+   subY: 40
+   width: 256
+   height: 2320
+   files:
+    0: Resources/turtle_sheet.png
+      
+ - type: UFOpaedia_COELGAUSS.png
+   width: 320
+   height: 200
+   singleImage: true
+   files:
+    0: Resources/TRIL_Gauss.gif
+
+ - type: XC_CGU.SPK
+   singleImage: true
+   files:
+    0: resources/XC_CGU.png

@@ -1,0 +1,36 @@
+facilities:
+  - type: STR_STANDARD_SONAR
+    radarRange: 1500
+    radarChance: 40
+    sightRange: 1500
+    sightChance: 40
+  - type: STR_TORPEDO_DEFENSES
+    defense: 500 #400
+    hitRatio: 80
+  - type: STR_GENERAL_STORES
+    storage: 100
+  - type: STR_GAUSS_DEFENSES
+    defense: 600 #540
+    hitRatio: 90
+  - type: STR_SONIC_DEFENSES
+    defense: 1000 #700
+    hitRatio: 70
+  - type: STR_PWT_DEFENSES
+    defense: 1200 #960
+    hitRatio: 80
+  - type: STR_LABORATORY
+    sickBayAbsoluteBonus: 0.25
+  - type: STR_LIVING_QUARTERS
+    sickBayAbsoluteBonus: 0.50
+    personnel: 75
+  - type: STR_GENERAL_STORES
+    storage: 170
+  - type: STR_WIDE_ARRAY_SONAR
+    radarRange: 2500
+    radarChance: 45
+    sightRange: 2500
+    sightChance: 45
+  - type: STR_TRANSMISSION_RESOLVER
+    radarRange: 3500
+    sightRange: 3500
+    sightChance: 100

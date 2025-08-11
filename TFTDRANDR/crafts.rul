@@ -1,0 +1,6 @@
+crafts:
+  - type: STR_MANTA
+    fuelMax: 40
+    refuelRate: 10
+  - type: STR_HAMMERHEAD
+    refuelRate: 10
